@@ -76,6 +76,11 @@ body {
   text-align: center;
 }
 
+.switcher-title.function,
+.switcher-title.object {
+  width: 360px;
+}
+
 .color-switcher {
   margin-left: auto;
   margin-right: auto;
