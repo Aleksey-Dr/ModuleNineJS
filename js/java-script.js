@@ -18,14 +18,16 @@ const onClick = () => {
 
 btn.addEventListener('click', onClick);
 
-// Method clearTimeout(id)
-const greet = () => {
-    console.log('Hello!');
-};
+// // Method clearTimeout(id)
+// // Code
+// const greet = () => {
+//     console.log('Hello!');
+// };
 
-const timerId = setTimeout(greet, 3000);
+// const timerId = setTimeout(greet, 3000);
 
-clearTimeout(timerId);
+// clearTimeout(timerId);
+// // End
 
 // Method setInterval()
 const startBtn = document.createElement('button');
@@ -80,24 +82,24 @@ console.log(date.getTime());
 const newDate = new Date(2030, 2, 16, 14, 25, 0, 0);
 console.log(newDate);
 
-// Methods
-// Getters
-console.log('Date: ', date);
-// day of month
-console.log('getDate :', date.getDate());
-// day of week
-console.log('getDay :', date.getDay());
-// Month
-console.log('getMonth :', date.getMonth());
-// Year
-console.log('getFullYear :', date.getFullYear());
-// hours
-console.log('getHours :', date.getHours());
-// Minutes
-console.log('getMinutes :', date.getMinutes());
-// Seconds
-console.log('getSeconds :', date.getSeconds());
-// Milliseconds
-console.log('getMilliseconds :', date.getMilliseconds());
-
-// Promise
+// // Methods
+// // Getters
+// // Code
+// console.log('Date: ', date);
+// // day of month
+// console.log('getDate :', date.getDate());
+// // day of week
+// console.log('getDay :', date.getDay());
+// // Month
+// console.log('getMonth :', date.getMonth());
+// // Year
+// console.log('getFullYear :', date.getFullYear());
+// // hours
+// console.log('getHours :', date.getHours());
+// // Minutes
+// console.log('getMinutes :', date.getMinutes());
+// // Seconds
+// console.log('getSeconds :', date.getSeconds());
+// // Milliseconds
+// console.log('getMilliseconds :', date.getMilliseconds());
+// // End
